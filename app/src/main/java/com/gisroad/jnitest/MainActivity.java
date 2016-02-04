@@ -1,10 +1,10 @@
 package com.gisroad.jnitest;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +14,4 @@ public class MainActivity extends Activity {
         TextView tv = (TextView) findViewById(R.id.txt);
         tv.setText(s);
     }
-
-
 }
